@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook | Home Page</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <a href="index.html" class="logo">facebook</a>
+      <nav>
+        <form class="nav-form">
+          <div class="mail">
+            <label for="mail">Email or Phone</label>
+            <input type="text" id="mail">
+          </div>
+          <div class="password">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <a href="#" class="forgot-account">Forgotten account?</a>
+          </div>
+          <button type="submit" class="nav-login-btn">Log In</button>
+        </form>
+      </nav>
+    </header>
+
+    <!-- Main Section  -->
+
+    <div id="main-section">
+      <div id="left">
+        <p>Facebook helps you connect and share with the people in your life.</p>
+        <img src="images/main-photo.jpg" alt="connecting people">
+      </div>
+
+
+      <div id="right">
+        <h1 class="create-account">Create an account</h1>
+        <p class="right-first-p">It's free and always will be.</p>
+        <form>
+          <div class="name">
+            <input type="text" class="first-name" placeholder="First name" required>
+            <input type="text" class="surname" placeholder="Surname">
+          </div>
+          <input type="email" class="right-email" placeholder="Mobile number or email address" required>
+          <input type="password" class="right-password" placeholder="New Password" required>
+          <div class="birthday">
+            <div class="birthday-main">
+              <label>Birthday</label>
+              <input type="date">
+            </div>
+            <a href="#">Why do I need to provide my date of birth?</a>
+          </div>
+          <div class="sex">
+            <input type="radio" id="female" name="sex">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="sex">
+            <label for="male">Male</label>
+          </div>
+          <!--  Footer  -->
+          <div class="right-footer-policy">
+            <p>By clicking Sign Up, you agree to our <a href="#" class="terms">Terms, Data Policy</a>and <a href="#" class="terms">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+            </p>
+          </div>
+          <button type="submit" class="signup">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

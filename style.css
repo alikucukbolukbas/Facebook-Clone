@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 3vw;
+  background:#4267B2;
+}
+
+header .logo {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+header .nav-form {
+  display: flex;
+  flex-direction: row;
+}
+
+header .nav-form .mail {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 1vw;
+}
+
+
+.nav-form .mail label{
+  color: #fff;
+  margin: 1vh 0;
+}
+
+.nav-form .mail #mail{
+  padding: 0.5vh 0.4vw;
+  width: 12vw;
+}
+
+header .nav-form .password {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 1vw;
+}
+
+.nav-form .password label{
+  margin: 1vh 0;
+  color: #fff;
+}
+
+.nav-form .password #password{
+  padding: 0.5vh 0.4vw;
+  width: 12vw;
+}
+
+.nav-form .password a{
+  margin: 1vh 0;
+  color: rgba(255, 255, 255, 0.459);
+}
+
+.nav-form .nav-login-btn {
+  height: 30px;
+  width: 80px;
+  margin: 4.7vh 0;
+  background: #4267B2;
+  border: 1px solid #2e497e;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+/* Main Section */
+
+#main-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#main-section #left {
+  flex: 6;
+  height: 100vh;
+}
+
+#main-section #left p{
+  margin: 10vh 2vw;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #243861;
+}
+
+#main-section #left img {
+  width: 80%;
+}
+
+
+#main-section #right {
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 4vw;
+  height: 100vh;
+  text-align: center;
+}
+
+#right .create-account {
+  font-size: 3rem;
+  color: rgb(61, 61, 61);
+  margin: 1vh 0;
+}
+
+#right .right-first-p {
+  margin: 2vh 0;
+  font-size: 20px;
+}
+
+#right form .name {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#right form .name .first-name{
+  width: 50%;
+  height: 40px;
+  font-size: 24px;
+  padding: 5px 5px;
+  margin: 10px 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid;
+  border-color: gray;
+}
+#right form .name .surname{
+  width: 50%;
+  height: 40px;
+  font-size: 24px;
+  padding: 5px 5px;
+  margin: 10px 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid;
+  border-color: gray;
+}
+
+#right form .right-email{
+  width: 97%;
+  height: 40px;
+  font-size: 24px;
+  padding: 2px 5px;
+  margin: 10px 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid;
+  border-color: gray;
+}
+
+#right form .right-password{
+  width: 97%;
+  height: 40px;
+  font-size: 24px;
+  padding: 2px 5px;
+  margin: 20px 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid;
+  border-color: gray;
+}
+
+#right form .birthday{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:flex-end;
+  text-align: center;
+}
+
+#right form .birthday .birthday-main{
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 1vw;
+  font-size: 24px;
+  text-align: left;
+}
+
+#right form .birthday .birthday-main label{
+  margin-bottom: 10px;
+}
+
